@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap');
+
+/* Selector {propiedad: valor;} = etiqueta, clase o id */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-areas:
+    "logo navUl";
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: rgba(0, 51, 145, 0.95);
+}
+
+.logo{
+    grid-area: logo;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+nav ul{
+    grid-area: navUl;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonesI{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonesIi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body{
+    background-color:rgba(2,35,109,.95);
+}
+
+main img{
+    border: solid;
+    border-color: goldenrod;
+}
+
+main p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px;
+}
+
+.tituloPagina{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+main section article{
+    text-align: center;
+}
+
+.imagenHistoria{
+    max-width: 600px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.subtituloHistoria {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #1d293e;
+    padding: 40px;
+    color: #fff;
+}
+
+.ulFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media (min-width:768px){
+.botonesPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.separador{
+    background-color: #ffc107;
+    height: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+}
