@@ -1,0 +1,37 @@
+/* Selector {propiedad: valor;} = etiqueta, clase o id */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+
+header{
+    display: grid;
+    grid-template-areas:
+    "logo navUl";
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: rgba(0, 51, 145, 0.95);
+
+    ul{
+        grid-area: navUl;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        list-style-type: none;
+        padding: 2px;
+        margin: 2px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+
+        a{
+            text-decoration: none;
+            color: #fff;
+            padding: 6px;
+        }
+    }
+}

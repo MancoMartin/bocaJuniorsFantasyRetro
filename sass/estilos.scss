@@ -1,42 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap');
-
-/* Selector {propiedad: valor;} = etiqueta, clase o id */
-*{
-    padding: 0;
-    margin: 0;
-}
-
-header{
-    display: grid;
-    grid-template-areas:
-    "logo navUl";
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px;
-    background-color: rgba(0, 51, 145, 0.95);
-}
+@import "fuentes";
+@import "generales";
+@import "animaciones";
 
 .logo{
     grid-area: logo;
-}
-
-a{
-    text-decoration: none;
-    color: #fff;
-    padding: 6px;
-}
-
-nav ul{
-    grid-area: navUl;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    list-style-type: none;
-    padding: 2px;
-    margin: 2px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
 }
 
 .carrusel{
@@ -61,10 +28,6 @@ nav ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-body{
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 }
 
 main img{
@@ -92,21 +55,6 @@ main section article{
     text-align: center;
 }
 
-.imagenHistoria{
-    max-width: 600px;
-    border-style: solid;
-    border-color: goldenrod;
-}
-
-.subtituloPagina {
-    text-transform: uppercase;
-    font-size: 25px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-
 footer{
     background-color: #1d293e;
     padding: 40px;
@@ -130,14 +78,29 @@ footer{
     font-size: 14px;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+.imagenHistoria{
+    max-width: 600px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.subtituloPagina {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
 .lineaPlantel{
     display: flex;
     flex-direction: row;
-}
-
-.animacion:hover{
-    transform: scale(0.8,0.8);
-    transition: all 2s;
 }
 
 @media (min-width:768px){
