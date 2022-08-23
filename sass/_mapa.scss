@@ -1,0 +1,12 @@
+$color: (
+    i: goldenrod,
+    ii: goldenrod,
+    iii: goldenrod,
+    iv: goldenrod,
+);
+
+@each $boton, $borde in $color {
+    .botones--#{$boton}{
+       background-color: $borde;
+    }
+}

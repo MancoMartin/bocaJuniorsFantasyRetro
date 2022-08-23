@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactate con nosotros para hablar del equipo más grande del mundo, el Club Atlético Boca Juniors.">
+    <meta name="author" content="Martín Manco">
+    <meta name="copyright" content="Martín Manco">
+    <!-- Apertura Graph -->
+    <meta property="og:title" content="Contacto">
+    <meta property="og:site_name" content="Boca Juniors Fantasy Retro">
+    <meta property="og:url" content="www.bocajuniorsfantasyretro.com/contacto.html">
+    <meta property="og:description" content="Contactate con nosotros para hablar del equipo más grande del mundo, el Club Atlético Boca Juniors.">
+    <!-- Cierre Graph -->
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../images/favicon-16x16.png" type="image/x-icon">
     <title>Contacto</title>
@@ -13,7 +22,7 @@
     <header>
         <!-- Apertura Logo Header -->
         <div class="logo">
-            <a href="../index.html"><img src="../images/logo-home.png" alt="Home"></a>
+            <a href="../index.html"><img src="../images/logo-home.png" loading="lazy" alt="Home"></a>
         </div>
         <!-- Cierre Logo Header -->
         <!-- Apertura Menú -->
@@ -38,33 +47,37 @@
         <!-- Cierre Menú -->
     </header>
 
+    <!-- Apertura de cuerpo principal -->
+    <main>
+        <h1 class="tituloPagina">Contacto</h1>
+    
     <section>
         <p>Estoy estudiando Desarrollo Web en Coder House. <a href="https://www.coderhouse.com/online/desarrollo-web-online"
                 target="_blank">Mirá el programa.</a></p>
     </section>
 
-    <!-- Apertura Form -->
+    <!-- Apertura Contenido Principal -->
     <section>
         <article>
             <form>
-                <label for="nombre_y_apellido">Nombre y apellido:</label>
+                <label class="contacto_i" for="nombre_y_apellido">Nombre y apellido:</label>
                 <input type="text" placeholder="Ej: Martin Manco" name="nombre_y_apellido">
                 <br>
-                <label for="edad">Edad:</label>
+                <label class="contacto_ii" for="edad">Edad:</label>
                 <input type="number" placeholder="Ej: 33">
                 <br>
-                <label for="email">Email:</label>
+                <label class="contacto_iii" for="email">Email:</label>
                 <input type="email" placeholder="ejemplo@gmail.com" name="email">
                 <br>
-                <label for="observaciones">Observaciones:</label>
+                <label class="contacto_iv" for="observaciones">Observaciones:</label>
                 <br>
                 <textarea placeholder="Ingrese sus observaciones aquí"></textarea>
                 <div>
                     <p>Elegí un lado:</p>
-                    <div>Izquierda
+                    <div class="contacto_v">Izquierda
                         <input type="radio" name="lado" value="izquierda">
                     </div>
-                    <div>Derecha
+                    <div class="contacto_vi">Derecha
                         <input type="radio" name="lado" value="derecha">
                     </div>
                 </div>
@@ -74,13 +87,15 @@
                     <option value="y">Y</option>
                     <option value="z">Z</option>
                 </select>
-                <div>¿Queres recibir info sobre nosotros?
+                <div class="contacto_vii">¿Queres recibir info sobre nosotros?
                     <input type="checkbox" name="acepta" value="1">
                 </div>
                 <input type="submit" value="Enviar">
             </form>
         </article>
     </section>
+    </main>
+<!-- Cierre Contenido Principal -->
 
     <!-- Apertura de Footer -->
     <footer>
@@ -88,14 +103,14 @@
             <ul class="ulFooter">
                 <li>
                     <a href="https://www.instagram.com/bocajrsoficial/" target="_blank"><img
-                            src="../images/icons8-instagram.svg" alt="Instagram oficial"></a>
+                            src="../images/icons8-instagram.svg" loading="lazy" alt="Instagram oficial"></a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/BocaJuniors/" target="_blank"><img
-                            src="../images/icons8-facebook.svg" alt="Facebook oficial"></a>
+                            src="../images/icons8-facebook.svg" loading="lazy" alt="Facebook oficial"></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/BocaJrsOficial" target="_blank"><img src="../images/icons8-twitter.svg"
+                    <a href="https://twitter.com/BocaJrsOficial" target="_blank"><img src="../images/icons8-twitter.svg" loading="lazy"
                             alt="Twitter oficial"></a>
                 </li>
             </ul>

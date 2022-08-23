@@ -40,6 +40,50 @@ header ul a {
   transition: all 2s;
 }
 
+.botones--i {
+  background-color: goldenrod;
+}
+
+.botones--ii {
+  background-color: goldenrod;
+}
+
+.botones--iii {
+  background-color: goldenrod;
+}
+
+.botones--iv {
+  background-color: goldenrod;
+}
+
+.textoContacto, .contacto_vii, .contacto_vi, .contacto_v, .contacto_iv, .contacto_iii, .contacto_ii, .contacto_i {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px;
+}
+
+.botones--i:hover {
+  transform: scale(0.8, 0.8);
+  transition: all 2s;
+}
+
+.botones--ii:hover {
+  transform: scale(0.8, 0.8);
+  transition: all 2s;
+}
+
+.botones--iii:hover {
+  transform: scale(0.8, 0.8);
+  transition: all 2s;
+}
+
+.botones--iv:hover {
+  transform: scale(0.8, 0.8);
+  transition: all 2s;
+}
+
 .logo {
   grid-area: logo;
 }
@@ -50,13 +94,25 @@ header ul a {
   justify-content: center;
 }
 
-.botonesI {
+.botones--i {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.botonesIi {
+.botones--ii {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.botones--iii {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.botones--iv {
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -1,6 +1,9 @@
 @import "fuentes";
 @import "generales";
 @import "animaciones";
+@import "mapa";
+@import "extend";
+@import "mixin";
 
 .logo{
     grid-area: logo;
@@ -12,13 +15,25 @@
     justify-content: center;
 }
 
-.botonesI{
+.botones--i{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.botonesIi{
+.botones--ii{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones--iii{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones--iv{
     display: flex;
     flex-direction: row;
     justify-content: center;

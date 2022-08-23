@@ -1,0 +1,22 @@
+@mixin botonesHome($transform,$transition){
+    &:hover{
+        transform: $transform;
+        transition: $transition;
+    }
+}
+
+.botones--i{
+    @include botonesHome (scale(0.8,0.8), all 2s);
+}
+
+.botones--ii{
+    @include botonesHome (scale(0.8,0.8), all 2s);
+}
+
+.botones--iii{
+    @include botonesHome (scale(0.8,0.8), all 2s);
+}
+
+.botones--iv{
+    @include botonesHome (scale(0.8,0.8), all 2s);
+}

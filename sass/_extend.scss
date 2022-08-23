@@ -1,0 +1,35 @@
+.textoContacto{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
+
+.contacto_i {
+    @extend .textoContacto;
+}
+
+.contacto_ii {
+    @extend .textoContacto;
+}
+
+.contacto_iii {
+    @extend .textoContacto;
+}
+
+.contacto_iv {
+    @extend .textoContacto;
+}
+
+.contacto_v {
+    @extend .textoContacto;
+}
+
+.contacto_vi {
+    @extend .textoContacto;
+}
+
+.contacto_vii {
+    @extend .textoContacto;
+}
