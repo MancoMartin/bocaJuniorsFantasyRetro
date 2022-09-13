@@ -58,6 +58,22 @@ main p{
     margin: 5px;
 }
 
+h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.noticeFont{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+
 .tituloPagina{
     font-size: 40px;
     font-weight: 700;
@@ -113,12 +129,22 @@ a{
     text-align: center;
 }
 
+.space{
+    margin-top: 20px;
+}
+
 .lineaPlantel{
     display: flex;
     flex-direction: row;
 }
 
+.sectionNotice{
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width:768px){
+
 .botonesPadre{
     display: flex;
     flex-direction: row;
